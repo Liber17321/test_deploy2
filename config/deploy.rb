@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'urlshortner'
-set :repo_url, 'git@github.com:rkmmanivannan/rails-ec2-deploy.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:Liber17321/test_deploy2.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/ubuntu/urlshortner'
 set :pty, true
