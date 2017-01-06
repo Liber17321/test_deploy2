@@ -1,0 +1,337 @@
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-06 09:44:20 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5908a69b] Running [ -d ~/.rvm ] as ubuntu@54.223.20.124
+ DEBUG [5908a69b] Command: [ -d ~/.rvm ]
+ DEBUG [5908a69b] Finished in 0.779 seconds with exit status 0 (successful).
+ DEBUG [621de95b] Running ~/.rvm/bin/rvm version as ubuntu@54.223.20.124
+ DEBUG [621de95b] Command: ~/.rvm/bin/rvm version
+ DEBUG [621de95b] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [621de95b] 	
+ DEBUG [621de95b] Finished in 0.188 seconds with exit status 0 (successful).
+ DEBUG [b3df3d12] Running ~/.rvm/bin/rvm current as ubuntu@54.223.20.124
+ DEBUG [b3df3d12] Command: ~/.rvm/bin/rvm current
+ DEBUG [b3df3d12] 	ruby-2.3.1
+ DEBUG [b3df3d12] 	
+ DEBUG [b3df3d12] Finished in 0.185 seconds with exit status 0 (successful).
+ DEBUG [59e01874] Running ~/.rvm/bin/rvm ruby-2.2.3 do ruby --version as ubuntu@54.223.20.124
+ DEBUG [59e01874] Command: ~/.rvm/bin/rvm ruby-2.2.3 do ruby --version
+ DEBUG [59e01874] 	ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+ DEBUG [59e01874] 	
+ DEBUG [59e01874] Finished in 0.338 seconds with exit status 0 (successful).
+  INFO [df05ac5a] Running /usr/bin/env mkdir -p /tmp/urlshortner/ as ubuntu@54.223.20.124
+ DEBUG [df05ac5a] Command: /usr/bin/env mkdir -p /tmp/urlshortner/
+  INFO [df05ac5a] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/urlshortner/git-ssh.sh 0.0%
+  INFO Uploading /tmp/urlshortner/git-ssh.sh 100.0%
+  INFO [61b7f4c5] Running /usr/bin/env chmod +rx /tmp/urlshortner/git-ssh.sh as ubuntu@54.223.20.124
+ DEBUG [61b7f4c5] Command: /usr/bin/env chmod +rx /tmp/urlshortner/git-ssh.sh
+  INFO [61b7f4c5] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [13ca31c4] Running /usr/bin/env git ls-remote --heads git@github.com:Liber17321/test_deploy2.git as ubuntu@54.223.20.124
+ DEBUG [13ca31c4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Liber17321/test_deploy2.git )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-06 09:44:33 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5444bf70] Running [ -d ~/.rvm ] as ubuntu@54.223.20.124
+ DEBUG [5444bf70] Command: [ -d ~/.rvm ]
+ DEBUG [5444bf70] Finished in 0.553 seconds with exit status 0 (successful).
+ DEBUG [4a32baef] Running ~/.rvm/bin/rvm version as ubuntu@54.223.20.124
+ DEBUG [4a32baef] Command: ~/.rvm/bin/rvm version
+ DEBUG [4a32baef] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [4a32baef] 	
+ DEBUG [4a32baef] Finished in 0.183 seconds with exit status 0 (successful).
+ DEBUG [20fd08e1] Running ~/.rvm/bin/rvm current as ubuntu@54.223.20.124
+ DEBUG [20fd08e1] Command: ~/.rvm/bin/rvm current
+ DEBUG [20fd08e1] 	ruby-2.3.1
+ DEBUG [20fd08e1] 	
+ DEBUG [20fd08e1] Finished in 0.183 seconds with exit status 0 (successful).
+ DEBUG [8c0cb790] Running ~/.rvm/bin/rvm ruby-2.2.3 do ruby --version as ubuntu@54.223.20.124
+ DEBUG [8c0cb790] Command: ~/.rvm/bin/rvm ruby-2.2.3 do ruby --version
+ DEBUG [8c0cb790] 	ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+ DEBUG [8c0cb790] 	
+ DEBUG [8c0cb790] Finished in 0.381 seconds with exit status 0 (successful).
+  INFO [a7565320] Running /usr/bin/env mkdir -p /tmp/urlshortner/ as ubuntu@54.223.20.124
+ DEBUG [a7565320] Command: /usr/bin/env mkdir -p /tmp/urlshortner/
+  INFO [a7565320] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/urlshortner/git-ssh.sh 0.0%
+  INFO Uploading /tmp/urlshortner/git-ssh.sh 100.0%
+  INFO [f109f335] Running /usr/bin/env chmod +rx /tmp/urlshortner/git-ssh.sh as ubuntu@54.223.20.124
+ DEBUG [f109f335] Command: /usr/bin/env chmod +rx /tmp/urlshortner/git-ssh.sh
+  INFO [f109f335] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [eeeedb64] Running /usr/bin/env git ls-remote --heads git@github.com:Liber17321/test_deploy2.git as ubuntu@54.223.20.124
+ DEBUG [eeeedb64] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Liber17321/test_deploy2.git )
+ DEBUG [eeeedb64] 	5962e3fbcee4089f52545e63513bad7ebc3c4119
+ DEBUG [eeeedb64] 		
+ DEBUG [eeeedb64] 	refs/heads/master
+ DEBUG [eeeedb64] 	
+  INFO [eeeedb64] Finished in 3.445 seconds with exit status 0 (successful).
+  INFO [4c7602f7] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared /home/ubuntu/urlshortner/releases as ubuntu@54.223.20.124
+ DEBUG [4c7602f7] Command: /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared /home/ubuntu/urlshortner/releases
+  INFO [4c7602f7] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [13fe0975] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared/bin /home/ubuntu/urlshortner/shared/log /home/ubuntu/urlshortner/shared/tmp/pids /home/ubuntu/urlshortner/shared/tmp/cache /home/ubuntu/urlshortner/shared/tmp/sockets /home/ubuntu/urlshortner/shared/vendor/bundle /home/ubuntu/urlshortner/shared/public/system /home/ubuntu/urlshortner/shared/public/uploads /home/ubuntu/urlshortner/shared/public/assets as ubuntu@54.223.20.124
+ DEBUG [13fe0975] Command: /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared/bin /home/ubuntu/urlshortner/shared/log /home/ubuntu/urlshortner/shared/tmp/pids /home/ubuntu/urlshortner/shared/tmp/cache /home/ubuntu/urlshortner/shared/tmp/sockets /home/ubuntu/urlshortner/shared/vendor/bundle /home/ubuntu/urlshortner/shared/public/system /home/ubuntu/urlshortner/shared/public/uploads /home/ubuntu/urlshortner/shared/public/assets
+  INFO [13fe0975] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [25deec8e] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared/config as ubuntu@54.223.20.124
+ DEBUG [25deec8e] Command: /usr/bin/env mkdir -p /home/ubuntu/urlshortner/shared/config
+  INFO [25deec8e] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [baa74289] Running [ -f /home/ubuntu/urlshortner/shared/config/database.yml ] as ubuntu@54.223.20.124
+ DEBUG [baa74289] Command: [ -f /home/ubuntu/urlshortner/shared/config/database.yml ]
+ DEBUG [baa74289] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [af9dfdc7] Running [ -f /home/ubuntu/urlshortner/shared/config/secrets.yml ] as ubuntu@54.223.20.124
+ DEBUG [af9dfdc7] Command: [ -f /home/ubuntu/urlshortner/shared/config/secrets.yml ]
+ DEBUG [af9dfdc7] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [e1c76de0] Running [ -f /home/ubuntu/urlshortner/current/REVISION ] as ubuntu@54.223.20.124
+ DEBUG [e1c76de0] Command: [ -f /home/ubuntu/urlshortner/current/REVISION ]
+ DEBUG [e1c76de0] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [a7508119] Running /usr/bin/env cat /home/ubuntu/urlshortner/current/REVISION 2>/dev/null as ubuntu@54.223.20.124
+ DEBUG [a7508119] Command: /usr/bin/env cat /home/ubuntu/urlshortner/current/REVISION 2>/dev/null
+ DEBUG [a7508119] 	7ba7c71c760081c19d7f7901f43c61bc16286e7d
+ DEBUG [a7508119] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [3d19367c] Running [ -f /home/ubuntu/urlshortner/repo/HEAD ] as ubuntu@54.223.20.124
+ DEBUG [3d19367c] Command: [ -f /home/ubuntu/urlshortner/repo/HEAD ]
+ DEBUG [3d19367c] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/urlshortner/repo
+ DEBUG [f6c6b507] Running if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [f6c6b507] Command: if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi
+ DEBUG [f6c6b507] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [522cabec] Running /usr/bin/env git remote update --prune as ubuntu@54.223.20.124
+ DEBUG [522cabec] Command: cd /home/ubuntu/urlshortner/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [522cabec] 	Fetching origin
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	remote: Counting objects: 6, done.[K
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	remote: Compressing objects: 100% (1/1)   [K
+ DEBUG [522cabec] 	remote: Compressing objects: 100% (1/1), done.[K
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	remote: Total 6 (delta 5), reused 6 (delta 5), pack-reused 0[K
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	Unpacking objects:  16% (1/6)   
+ DEBUG [522cabec] 	Unpacking objects:  33% (2/6)   
+ DEBUG [522cabec] 	Unpacking objects:  50% (3/6)   
+ DEBUG [522cabec] 	Unpacking objects:  66% (4/6)   
+ DEBUG [522cabec] 	Unpacking objects:  83% (5/6)   
+ DEBUG [522cabec] 	Unpacking objects: 100% (6/6)   
+ DEBUG [522cabec] 	Unpacking objects: 100% (6/6), done.
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	From github.com:Liber17321/test_deploy2
+ DEBUG [522cabec] 	
+ DEBUG [522cabec] 	   7ba7c71..5962e3f  master     -> master
+ DEBUG [522cabec] 	
+  INFO [522cabec] Finished in 3.750 seconds with exit status 0 (successful).
+ DEBUG [b2d1b2ec] Running if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [b2d1b2ec] Command: if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi
+ DEBUG [b2d1b2ec] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [c3d501de] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439 as ubuntu@54.223.20.124
+ DEBUG [c3d501de] Command: cd /home/ubuntu/urlshortner/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439 )
+  INFO [c3d501de] Finished in 0.213 seconds with exit status 0 (successful).
+  INFO [6a6904e9] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/urlshortner/releases/20170106014439 as ubuntu@54.223.20.124
+ DEBUG [6a6904e9] Command: cd /home/ubuntu/urlshortner/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/urlshortner/releases/20170106014439 )
+  INFO [6a6904e9] Finished in 0.362 seconds with exit status 0 (successful).
+ DEBUG [be122580] Running if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [be122580] Command: if test ! -d /home/ubuntu/urlshortner/repo; then echo "Directory does not exist '/home/ubuntu/urlshortner/repo'" 1>&2; false; fi
+ DEBUG [be122580] Finished in 0.173 seconds with exit status 0 (successful).
+ DEBUG [7b1559f6] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.223.20.124
+ DEBUG [7b1559f6] Command: cd /home/ubuntu/urlshortner/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/urlshortner/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7b1559f6] 	5962e3fbcee4089f52545e63513bad7ebc3c4119
+ DEBUG [7b1559f6] 	
+ DEBUG [7b1559f6] Finished in 0.313 seconds with exit status 0 (successful).
+ DEBUG [7d51d11d] Running if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [7d51d11d] Command: if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi
+ DEBUG [7d51d11d] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [338ed462] Running /usr/bin/env echo "5962e3fbcee4089f52545e63513bad7ebc3c4119" >> REVISION as ubuntu@54.223.20.124
+ DEBUG [338ed462] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env echo "5962e3fbcee4089f52545e63513bad7ebc3c4119" >> REVISION
+  INFO [338ed462] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [be28b01b] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439/config as ubuntu@54.223.20.124
+ DEBUG [be28b01b] Command: /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439/config
+  INFO [be28b01b] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [632149c0] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml ] as ubuntu@54.223.20.124
+ DEBUG [632149c0] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml ]
+ DEBUG [632149c0] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [d5291317] Running [ -f /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml ] as ubuntu@54.223.20.124
+ DEBUG [d5291317] Command: [ -f /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml ]
+ DEBUG [d5291317] Finished in 0.050 seconds with exit status 1 (failed).
+  INFO [34893e3c] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/config/database.yml /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml as ubuntu@54.223.20.124
+ DEBUG [34893e3c] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/config/database.yml /home/ubuntu/urlshortner/releases/20170106014439/config/database.yml
+  INFO [34893e3c] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [8aed2ea0] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml ] as ubuntu@54.223.20.124
+ DEBUG [8aed2ea0] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml ]
+ DEBUG [8aed2ea0] Finished in 0.053 seconds with exit status 1 (failed).
+ DEBUG [3efe3f0d] Running [ -f /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml ] as ubuntu@54.223.20.124
+ DEBUG [3efe3f0d] Command: [ -f /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml ]
+ DEBUG [3efe3f0d] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [0675e90d] Running /usr/bin/env rm /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml as ubuntu@54.223.20.124
+ DEBUG [0675e90d] Command: /usr/bin/env rm /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml
+  INFO [0675e90d] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [281d9b0e] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/config/secrets.yml /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml as ubuntu@54.223.20.124
+ DEBUG [281d9b0e] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/config/secrets.yml /home/ubuntu/urlshortner/releases/20170106014439/config/secrets.yml
+  INFO [281d9b0e] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [1307834d] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439 /home/ubuntu/urlshortner/releases/20170106014439/tmp /home/ubuntu/urlshortner/releases/20170106014439/vendor /home/ubuntu/urlshortner/releases/20170106014439/public as ubuntu@54.223.20.124
+ DEBUG [1307834d] Command: /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439 /home/ubuntu/urlshortner/releases/20170106014439/tmp /home/ubuntu/urlshortner/releases/20170106014439/vendor /home/ubuntu/urlshortner/releases/20170106014439/public
+  INFO [1307834d] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [71683792] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/bin ] as ubuntu@54.223.20.124
+ DEBUG [71683792] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/bin ]
+ DEBUG [71683792] Finished in 0.051 seconds with exit status 1 (failed).
+ DEBUG [c1d2f13d] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/bin ] as ubuntu@54.223.20.124
+ DEBUG [c1d2f13d] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/bin ]
+ DEBUG [c1d2f13d] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [e09f0399] Running /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/bin as ubuntu@54.223.20.124
+ DEBUG [e09f0399] Command: /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/bin
+  INFO [e09f0399] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [e7003415] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/bin /home/ubuntu/urlshortner/releases/20170106014439/bin as ubuntu@54.223.20.124
+ DEBUG [e7003415] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/bin /home/ubuntu/urlshortner/releases/20170106014439/bin
+  INFO [e7003415] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [8879b3ad] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/log ] as ubuntu@54.223.20.124
+ DEBUG [8879b3ad] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/log ]
+ DEBUG [8879b3ad] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [5704621a] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/log ] as ubuntu@54.223.20.124
+ DEBUG [5704621a] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/log ]
+ DEBUG [5704621a] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [f5ccb0fc] Running /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/log as ubuntu@54.223.20.124
+ DEBUG [f5ccb0fc] Command: /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/log
+  INFO [f5ccb0fc] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [42ccbddf] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/log /home/ubuntu/urlshortner/releases/20170106014439/log as ubuntu@54.223.20.124
+ DEBUG [42ccbddf] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/log /home/ubuntu/urlshortner/releases/20170106014439/log
+  INFO [42ccbddf] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [e551eba9] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids ] as ubuntu@54.223.20.124
+ DEBUG [e551eba9] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids ]
+ DEBUG [e551eba9] Finished in 0.051 seconds with exit status 1 (failed).
+ DEBUG [1f472382] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids ] as ubuntu@54.223.20.124
+ DEBUG [1f472382] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids ]
+ DEBUG [1f472382] Finished in 0.050 seconds with exit status 1 (failed).
+  INFO [8716562d] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/pids /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids as ubuntu@54.223.20.124
+ DEBUG [8716562d] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/pids /home/ubuntu/urlshortner/releases/20170106014439/tmp/pids
+  INFO [8716562d] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [8807b87a] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache ] as ubuntu@54.223.20.124
+ DEBUG [8807b87a] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache ]
+ DEBUG [8807b87a] Finished in 0.051 seconds with exit status 1 (failed).
+ DEBUG [6e7b28d4] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache ] as ubuntu@54.223.20.124
+ DEBUG [6e7b28d4] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache ]
+ DEBUG [6e7b28d4] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [aaf0d01c] Running /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache as ubuntu@54.223.20.124
+ DEBUG [aaf0d01c] Command: /usr/bin/env rm -rf /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache
+  INFO [aaf0d01c] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [97e55d4d] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/cache /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache as ubuntu@54.223.20.124
+ DEBUG [97e55d4d] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/cache /home/ubuntu/urlshortner/releases/20170106014439/tmp/cache
+  INFO [97e55d4d] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [61b9cf76] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets ] as ubuntu@54.223.20.124
+ DEBUG [61b9cf76] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets ]
+ DEBUG [61b9cf76] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [32bc8d2f] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets ] as ubuntu@54.223.20.124
+ DEBUG [32bc8d2f] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets ]
+ DEBUG [32bc8d2f] Finished in 0.050 seconds with exit status 1 (failed).
+  INFO [2ec64e91] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/sockets /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets as ubuntu@54.223.20.124
+ DEBUG [2ec64e91] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/tmp/sockets /home/ubuntu/urlshortner/releases/20170106014439/tmp/sockets
+  INFO [2ec64e91] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [13cd0a63] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle ] as ubuntu@54.223.20.124
+ DEBUG [13cd0a63] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle ]
+ DEBUG [13cd0a63] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [989c042c] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle ] as ubuntu@54.223.20.124
+ DEBUG [989c042c] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle ]
+ DEBUG [989c042c] Finished in 0.053 seconds with exit status 1 (failed).
+  INFO [99c1e367] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/vendor/bundle /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle as ubuntu@54.223.20.124
+ DEBUG [99c1e367] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/vendor/bundle /home/ubuntu/urlshortner/releases/20170106014439/vendor/bundle
+  INFO [99c1e367] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [ccf0607d] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/system ] as ubuntu@54.223.20.124
+ DEBUG [ccf0607d] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/system ]
+ DEBUG [ccf0607d] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [4c4053f6] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/system ] as ubuntu@54.223.20.124
+ DEBUG [4c4053f6] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/system ]
+ DEBUG [4c4053f6] Finished in 0.052 seconds with exit status 1 (failed).
+  INFO [cfa92e1b] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/system /home/ubuntu/urlshortner/releases/20170106014439/public/system as ubuntu@54.223.20.124
+ DEBUG [cfa92e1b] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/system /home/ubuntu/urlshortner/releases/20170106014439/public/system
+  INFO [cfa92e1b] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [dba53aa1] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/uploads ] as ubuntu@54.223.20.124
+ DEBUG [dba53aa1] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/uploads ]
+ DEBUG [dba53aa1] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [24466d60] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/uploads ] as ubuntu@54.223.20.124
+ DEBUG [24466d60] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/uploads ]
+ DEBUG [24466d60] Finished in 0.050 seconds with exit status 1 (failed).
+  INFO [6a9e52cb] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/uploads /home/ubuntu/urlshortner/releases/20170106014439/public/uploads as ubuntu@54.223.20.124
+ DEBUG [6a9e52cb] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/uploads /home/ubuntu/urlshortner/releases/20170106014439/public/uploads
+  INFO [6a9e52cb] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [2f2d13f7] Running [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/assets ] as ubuntu@54.223.20.124
+ DEBUG [2f2d13f7] Command: [ -L /home/ubuntu/urlshortner/releases/20170106014439/public/assets ]
+ DEBUG [2f2d13f7] Finished in 0.052 seconds with exit status 1 (failed).
+ DEBUG [b54949d4] Running [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/assets ] as ubuntu@54.223.20.124
+ DEBUG [b54949d4] Command: [ -d /home/ubuntu/urlshortner/releases/20170106014439/public/assets ]
+ DEBUG [b54949d4] Finished in 0.051 seconds with exit status 1 (failed).
+  INFO [0ebaf0f9] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/assets /home/ubuntu/urlshortner/releases/20170106014439/public/assets as ubuntu@54.223.20.124
+ DEBUG [0ebaf0f9] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/shared/public/assets /home/ubuntu/urlshortner/releases/20170106014439/public/assets
+  INFO [0ebaf0f9] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [75171d38] Running if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [75171d38] Command: if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi
+ DEBUG [75171d38] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [78fc2ceb] Running ~/.rvm/bin/rvm ruby-2.2.3 do bundle install --path /home/ubuntu/urlshortner/shared/bundle --without development test --deployment --quiet as ubuntu@54.223.20.124
+ DEBUG [78fc2ceb] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && ~/.rvm/bin/rvm ruby-2.2.3 do bundle install --path /home/ubuntu/urlshortner/shared/bundle --without development test --deployment --quiet
+  INFO [78fc2ceb] Finished in 8.790 seconds with exit status 0 (successful).
+ DEBUG [20cd96b0] Running if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [20cd96b0] Command: if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi
+ DEBUG [20cd96b0] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [d5ec85c8] Running ~/.rvm/bin/rvm ruby-2.2.3 do bundle exec rake assets:precompile as ubuntu@54.223.20.124
+ DEBUG [d5ec85c8] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm ruby-2.2.3 do bundle exec rake assets:precompile )
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:44:57.940630 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/profile-8251ae534128bee22b536add94bb307b.jpeg
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:44:57.942064 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/wallpaper-d762fe95ba1ae7a92c47abbc4b0da18d.jpeg
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:03.011516 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/application-c4a9920c310ac351de9469f0fdb7a357.js
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.472244 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/application-bd4afccb72d69a70152f0cf48791188f.css
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.477808 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/bootstrap/glyphicons-halflings-regular-29b48c1e91b74d48bebd7fbf640b6dca.eot
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.478659 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/bootstrap/glyphicons-halflings-regular-09c75d9bd3db40b734604ada60a2601b.svg
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.479455 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/bootstrap/glyphicons-halflings-regular-77fa582506f857de6d0b8727c23317a0.ttf
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.480258 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/bootstrap/glyphicons-halflings-regular-d98ae1d28d0193e6f138054da03e8a8d.woff
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.484080 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/bootstrap/glyphicons-halflings-regular-6f7f688089b0fcc267a1d343e026eb34.woff2
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.485772 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/fontawesome/fonts/fontawesome-webfont-83925d07210fc65a7696eb1a284b9e02.eot
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.488065 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/fontawesome/fonts/fontawesome-webfont-2694656b60f868c778b12fca4dd39c3b.svg
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.490012 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/fontawesome/fonts/fontawesome-webfont-e6d6fb44f99757c8cc71f2cf9ef61418.ttf
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.491776 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/fontawesome/fonts/fontawesome-webfont-83ce4aff9c3800080cb67f51f971eb42.woff
+ DEBUG [d5ec85c8] 	
+ DEBUG [d5ec85c8] 	I, [2017-01-06T09:45:07.493388 #17829]  INFO -- : Writing /home/ubuntu/urlshortner/releases/20170106014439/public/assets/fontawesome/fonts/fontawesome-webfont-8e9999ab9c73c586640fbc9585a104d4.woff2
+ DEBUG [d5ec85c8] 	
+  INFO [d5ec85c8] Finished in 12.032 seconds with exit status 0 (successful).
+ DEBUG [c81b143b] Running if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [c81b143b] Command: if test ! -d /home/ubuntu/urlshortner/releases/20170106014439; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases/20170106014439'" 1>&2; false; fi
+ DEBUG [c81b143b] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [c43c5f6a] Running /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439/assets_manifest_backup as ubuntu@54.223.20.124
+ DEBUG [c43c5f6a] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env mkdir -p /home/ubuntu/urlshortner/releases/20170106014439/assets_manifest_backup
+  INFO [c43c5f6a] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [b1adc7a7] Running /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/.sprockets-manifest* as ubuntu@54.223.20.124
+ DEBUG [b1adc7a7] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/.sprockets-manifest*
+ DEBUG [b1adc7a7] 	ls: cannot access /home/ubuntu/urlshortner/releases/20170106014439/public/assets/.sprockets-manifest*: No such file or directory
+ DEBUG [b1adc7a7] Finished in 0.056 seconds with exit status 2 (failed).
+ DEBUG [1d3ee51c] Running /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest*.* as ubuntu@54.223.20.124
+ DEBUG [1d3ee51c] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest*.*
+ DEBUG [1d3ee51c] 	/home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest-02b1ead18de5a66aea010f596a1ef335.json
+ DEBUG [1d3ee51c] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [53ab64ae] Running /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest*.* as ubuntu@54.223.20.124
+ DEBUG [53ab64ae] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env ls /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest*.*
+ DEBUG [53ab64ae] 	/home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest-02b1ead18de5a66aea010f596a1ef335.json
+ DEBUG [53ab64ae] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [e3e99b68] Running /usr/bin/env cp /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest-02b1ead18de5a66aea010f596a1ef335.json /home/ubuntu/urlshortner/releases/20170106014439/assets_manifest_backup as ubuntu@54.223.20.124
+ DEBUG [e3e99b68] Command: cd /home/ubuntu/urlshortner/releases/20170106014439 && /usr/bin/env cp /home/ubuntu/urlshortner/releases/20170106014439/public/assets/manifest-02b1ead18de5a66aea010f596a1ef335.json /home/ubuntu/urlshortner/releases/20170106014439/assets_manifest_backup
+  INFO [e3e99b68] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [5a649c88] Running /usr/bin/env ln -s /home/ubuntu/urlshortner/releases/20170106014439 /home/ubuntu/urlshortner/releases/current as ubuntu@54.223.20.124
+ DEBUG [5a649c88] Command: /usr/bin/env ln -s /home/ubuntu/urlshortner/releases/20170106014439 /home/ubuntu/urlshortner/releases/current
+  INFO [5a649c88] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [5e2afd9e] Running /usr/bin/env mv /home/ubuntu/urlshortner/releases/current /home/ubuntu/urlshortner as ubuntu@54.223.20.124
+ DEBUG [5e2afd9e] Command: /usr/bin/env mv /home/ubuntu/urlshortner/releases/current /home/ubuntu/urlshortner
+  INFO [5e2afd9e] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [abdb98ec] Running /usr/bin/env ls -xtr /home/ubuntu/urlshortner/releases as ubuntu@54.223.20.124
+ DEBUG [abdb98ec] Command: /usr/bin/env ls -xtr /home/ubuntu/urlshortner/releases
+ DEBUG [abdb98ec] 	20170105232307	20170106002215	20170106002329	20170106014439
+ DEBUG [abdb98ec] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [39884236] Running if test ! -d /home/ubuntu/urlshortner/releases; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases'" 1>&2; false; fi as ubuntu@54.223.20.124
+ DEBUG [39884236] Command: if test ! -d /home/ubuntu/urlshortner/releases; then echo "Directory does not exist '/home/ubuntu/urlshortner/releases'" 1>&2; false; fi
+ DEBUG [39884236] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [c38d055a] Running /usr/bin/env echo "Branch master (at 5962e3fbcee4089f52545e63513bad7ebc3c4119) deployed as release 20170106014439 by weldontim" >> /home/ubuntu/urlshortner/revisions.log as ubuntu@54.223.20.124
+ DEBUG [c38d055a] Command: cd /home/ubuntu/urlshortner/releases && /usr/bin/env echo "Branch master (at 5962e3fbcee4089f52545e63513bad7ebc3c4119) deployed as release 20170106014439 by weldontim" >> /home/ubuntu/urlshortner/revisions.log
+  INFO [c38d055a] Finished in 0.055 seconds with exit status 0 (successful).

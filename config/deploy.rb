@@ -3,6 +3,9 @@ lock '3.5.0'
 
 set :application, 'urlshortner'
 set :repo_url, 'git@github.com:Liber17321/test_deploy2.git' # Edit this to match your repository
+
+
+set :user, 'ubuntu'
 set :branch, :master
 set :deploy_to, '/home/ubuntu/urlshortner'
 set :pty, true
@@ -11,6 +14,8 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 set :keep_releases, 5
 set :rvm_ruby_version, 'ruby-2.2.3' # Edit this if you are using MRI Ruby
 
+
+set :unicorn_config_path, -> { File.join(current_path, 'config', 'unicorn.rb') }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -45,6 +50,6 @@ set :rvm_ruby_version, 'ruby-2.2.3' # Edit this if you are using MRI Ruby
 
 namespace :deploy do
   task :restart do
-    invoke 'unicorn:reload'
+    invoke 'unicorn:restart'
   end
 end
